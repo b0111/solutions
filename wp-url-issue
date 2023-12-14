@@ -1,0 +1,11 @@
+home page work in wordpress Two solution are listed below : 
+A) Set permalink by altenative change like change you setting then save.
+then reset your previous setting then save
+
+
+B) Run Below command in server if only : 
+
+i) sudo apt update
+ii) sudo apt install libapache2-mod-rewrite
+iii) sudo a2enmod rewrite
+iv) sudo service apache2 restart
